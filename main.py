@@ -6,7 +6,7 @@ import base64
 
 st.title("Sales Analysis")
 
-# Load the dataset
+# Loading the dataset
 df = pd.read_csv("customer_shopping_data.csv")
 
 
