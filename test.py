@@ -3,6 +3,9 @@ import pandas as pd
 import altair as alt
 import base64
 
+
+st.title("Sales Analysis")
+
 # Load the dataset
 df = pd.read_csv("customer_shopping_data.csv")
 
